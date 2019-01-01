@@ -1,0 +1,11 @@
+#version 330
+
+out vec4 FragColor; //some vec4 must be out'd to be decide final pixel colour
+
+
+
+void main(){
+		FragColor = vec4(1.0f, 1.0f, 1.0f, 1.0f);
+
+		
+}

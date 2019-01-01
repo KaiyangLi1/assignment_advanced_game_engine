@@ -1,0 +1,15 @@
+#version 330 core
+
+//value passed in
+layout (location=0) in vec3 aPos;
+
+//variable that will be passed onto next shader when this shader is done
+out vec4 vertexColour;
+
+
+void main(){
+		//vertex shader MUST set a vec4 value for gl_position to help with
+		//shape assembly
+		gl_Position = vec4(aPos, 1.0);
+		
+}

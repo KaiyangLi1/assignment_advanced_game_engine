@@ -1,0 +1,12 @@
+#version 330
+
+out vec4 FragColor; //some vec4 must be out'd to be decide final pixel colour
+
+//uniforms are global variables we can set from our code directly
+uniform vec4 ourColour;
+
+void main(){
+		FragColor = ourColour;
+
+		
+}

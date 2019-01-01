@@ -1,0 +1,12 @@
+#version 330
+
+out vec4 FragColor; //some vec4 must be out'd to be decide final pixel colour
+
+//catch values passed out from vertex shader with same name
+in vec4 vertexColour;
+
+void main(){
+		FragColor = vertexColour;
+
+		
+}

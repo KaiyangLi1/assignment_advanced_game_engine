@@ -1,0 +1,16 @@
+#version 330 core
+
+//value passed in
+layout (location=0) in vec3 aPos;
+layout (location=1) in vec3 aColour;
+
+//will be passed to fragment shaders in of the same name
+out vec4 vertexColour;
+
+void main(){
+		//vertex shader MUST set a vec4 value for gl_position to help with
+		//shape assembly
+		gl_Position = vec4(aPos, 1.0);
+		
+		vertexColour = vec4(aColour, 1.0);
+}
