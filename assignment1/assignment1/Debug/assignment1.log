@@ -1,2 +1,12 @@
-﻿  polygon.cpp
-  assignment1.vcxproj -> D:\Visual Studio Projects\assignment1\Debug\assignment1.exe
+﻿  main.cpp
+d:\github\assignment_advanced_game_engine\assignment1\assignment1\main.cpp(22): warning C4326: return type of 'main' should be 'int' instead of 'void'
+  polygon.cpp
+  Rectangle.cpp
+d:\github\assignment_advanced_game_engine\assignment1\assignment1\rectangle.cpp(40): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  Shader.cpp
+d:\github\assignment_advanced_game_engine\assignment1\assignment1\shader.cpp(37): warning C4101: 'success': unreferenced local variable
+  triangle.cpp
+  Generating Code...
+  LINK : D:\github\assignment_advanced_game_engine\assignment1\Debug\assignment1.exe not found or not built by the last incremental link; performing full link
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  assignment1.vcxproj -> D:\github\assignment_advanced_game_engine\assignment1\Debug\assignment1.exe
