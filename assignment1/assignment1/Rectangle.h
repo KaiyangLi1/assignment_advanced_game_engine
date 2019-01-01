@@ -19,6 +19,8 @@ public:
 	rectangle();
 	~rectangle();
 
+
+
 	void draw();
 };
 
